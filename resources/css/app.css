@@ -1,0 +1,32 @@
+body {
+    font-family: Vazir, sans-serif;
+}
+
+.alert-info{
+    background-color: #D0E0FC
+}
+
+.alert-warning{
+    background-color: #FED6DD
+}
+.cursor-pointer{
+    cursor: pointer
+}
+
+.h1{
+    line-height: 2rem;
+}
+.h2{
+    line-height: 2rem;
+}
+.h3{
+    line-height: 2rem;
+}.h4{
+    line-height: 2rem;
+}
+.h5{
+    line-height: 2rem;
+}
+.h6{
+    line-height: 2rem;
+}

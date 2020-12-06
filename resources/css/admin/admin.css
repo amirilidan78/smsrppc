@@ -1,0 +1,50 @@
+body {
+    font-family: Vazir, sans-serif;
+}
+
+.alert-info{
+    background-color: #D0E0FC
+}
+.cursor-pointer{
+    cursor: pointer
+}
+
+.h1{
+    line-height: 2rem;
+}
+.h2{
+    line-height: 2rem;
+}
+.h3{
+    line-height: 2rem;
+}.h4{
+    line-height: 2rem;
+}
+.h5{
+    line-height: 2rem;
+}
+.h6{
+    line-height: 2rem;
+}
+
+.responsive-admin-margin{
+    height: 5vh;
+}
+
+.custom-active{
+    border: 1px solid rgba(0,0,0,.125);
+    border-right: 4px solid #0C56D0;
+    border-radius: 5px;
+    box-shadow: #eeeeee 2px 2px;
+    margin-right: 10px;
+}
+.pagination{
+    justify-content: center;
+}
+
+.check-box-style{
+    transform: scale(1.2)  translate(1px ,2px)
+}
+.w70 {
+    width: 70vw;
+}

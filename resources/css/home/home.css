@@ -1,0 +1,63 @@
+body {
+    font-family: Vazir, sans-serif;
+}
+
+.alert-info{
+    background-color: #D0E0FC
+}
+.cursor-pointer{
+    cursor: pointer
+}
+
+.h1{
+    line-height: 2rem;
+}
+.h2{
+    line-height: 2rem;
+}
+.h3{
+    line-height: 2rem;
+}.h4{
+    line-height: 2rem;
+}
+.h5{
+    line-height: 2rem;
+}
+.h6 {
+    line-height: 2rem;
+}
+
+
+/*Google Recaptcha*/
+@media only screen and (max-width: 800px) {
+    .g-recaptcha {
+        transform: scale(.85);
+    }
+    .g-recaptcha {
+        -webkit-transform:scale(.85) ;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .g-recaptcha {
+        transform: scale(.78);
+    }
+    .g-recaptcha {
+        -webkit-transform:scale(.78) ;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .g-recaptcha {
+        transform: scale(.70);
+    }
+    .g-recaptcha {
+        -webkit-transform:scale(.70) ;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .g-recaptcha {
+        transform: scale(.65);
+    }
+    .g-recaptcha {
+        -webkit-transform:scale(.65) ;
+    }
+}
