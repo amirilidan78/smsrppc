@@ -37,3 +37,12 @@ Route::post('/auth', function (Request $request) {
     ],200);
 
 });
+
+Route::middleware('api_auth')->get('/partners' ,function (Request $request){
+
+    $partners = \App\Models\UpdatedPartner::all()->toArray() ;
+
+    return response()->json([
+        'partners' => $partners
+    ],200);
+});

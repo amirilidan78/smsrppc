@@ -2,8 +2,7 @@
 
 namespace App\Http;
 
-use App\Http\Middleware\Admin\is_admin_middleware;
-use App\Http\Middleware\Admin\unchangeable_user_middleware;
+use App\Http\Middleware\api_auth_middleware;
 use App\Http\Middleware\Home\is_authorizing_middleware;
 use App\Http\Middleware\Home\is_selecting_partner_middleware;
 use App\Http\Middleware\Home\is_submitting_middleware;
@@ -60,6 +59,7 @@ class Kernel extends HttpKernel
      */
     protected $routeMiddleware = [
         'auth' => \App\Http\Middleware\Authenticate::class,
+        'api_auth' => api_auth_middleware::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
